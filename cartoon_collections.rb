@@ -5,7 +5,7 @@ def roll_call_dwarves(dwarves)# code an argument here
 end
 
 def summon_captain_planet(planeteer)# code an argument here
-  planteer.collect do |x|
+  planeteer.collect do |x|
     puts "#{x}!"
   end# Your code here
 end
