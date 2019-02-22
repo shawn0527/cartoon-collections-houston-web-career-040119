@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(planeteer)# code an argument here
   planeteer.collect do |x|
-    puts "#{x}!"
+    puts "#{x.capitalize}!"
   end# Your code here
 end
 
