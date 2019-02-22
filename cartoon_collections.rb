@@ -4,9 +4,10 @@ def roll_call_dwarves(dwarves)# code an argument here
   end # Your code here
 end
 
-def summon_captain_planet(planeteer)# code an argument here
+def summon_captain_planet(planeteer)
+  result = []# code an argument here
   planeteer.collect do |x|
-    puts "#{x.capitalize}!"
+    result << "#{x.capitalize}!"
   end# Your code here
 end
 
