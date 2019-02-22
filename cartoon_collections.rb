@@ -7,7 +7,7 @@ end
 def summon_captain_planet(planeteer)
   result = []# code an argument here
   planeteer.collect do |x|
-    result << "#{x.capitalize}!"
+    result << "#{x}!"
   end# Your code here
 end
 
