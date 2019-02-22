@@ -6,7 +6,8 @@ end
 
 def summon_captain_planet(planeteer)# code an argument here
   planteer.collect do |x|
-    puts "#{x}!"# Your code here
+    puts "#{x}!"
+  end# Your code here
 end
 
 def long_planeteer_calls# code an argument here
